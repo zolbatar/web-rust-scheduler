@@ -1,0 +1,3 @@
+$ cargo install -f cargo-web
+$ cargo web start --target=wasm32-unknown-unknown
+Visit http://localhost:8000 with your browser.

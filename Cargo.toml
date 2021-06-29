@@ -1,0 +1,17 @@
+[package]
+name = "web-scheduler"
+version = "0.1.0"
+authors = ["Daryl Dudey <daryl.dudey@cognitoiq.com>"]
+edition = "2018"
+
+[dependencies]
+stdweb = "0.4.20"
+yew = "0.10.0"
+ron = "0.5.1"
+serde = "1.0.104"
+serde_json = "1.0.44"
+rand = { version = "0.7.2", features = ["stdweb"]}
+
+#[dependencies.chrono]
+#version = "*"
+#features = ["serde"]

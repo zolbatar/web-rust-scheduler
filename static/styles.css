@@ -1,0 +1,74 @@
+:root {
+  --mdc-theme-primary: #bb86fc;
+  --mdc-theme-secondary: #03dac5;
+  --mdc-theme-background: #121212;
+  --mdc-theme-surface: #242424;
+
+  --mdc-theme-error: #b00020;
+  --mdc-theme-on-primary: #fff;
+  --mdc-theme-on-secondary: #fff;
+  --mdc-theme-on-surface: #000;
+  --mdc-theme-on-error: #fff;
+  --mdc-theme-text-primary-on-background: rgba(255, 255, 255, 0.87);
+  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+  --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
+  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.54);
+  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-primary-on-dark: white;
+  --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.7);
+  --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: var(--mdc-theme-text-primary-on-background);
+  margin: 0 auto;
+  font-weight: 300;
+  background-color: var(--mdc-theme-background);
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.appbar {
+  background-color: var(--mdc-theme-surface);
+}
+
+.centre-all {
+  position: absolute;
+  width: calc(100% - 265px);
+  height: calc(100% - 80px);
+  top: 71px;
+  left: 5px;
+}
+
+.info-panel {
+  position: fixed;
+  top: calc(64px + 5px);
+  right: 5px;
+  width: 250px;
+  height: calc(100% - 64px - 10px);
+  border-radius: 5px;
+  background-color: var(--mdc-theme-surface);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
